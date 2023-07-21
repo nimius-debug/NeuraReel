@@ -1,5 +1,5 @@
 
-# 30-sec Video Automation
+# NeuraReel: 30-sec Video Automation
 
 This is a Python-based application designed to automate the process of creating 30-second highlight videos from YouTube. The application downloads a video, transcribes it, analyzes the transcript to find the most engaging parts, adds captions, edits the video, and adds background music. This application uses Streamlit for the user interface and Python for the backend.
 
