@@ -1,0 +1,58 @@
+#.gitignore
+
+# Python files
+*.py[cod]
+__pycache__
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Streamlit files
+streamlit/.streamlit
+
+# Vertex AI files
+vertex-ai-key.json
+
+# Jupyter notebook files
+.ipynb_checkpoints/
+
+# Virtual environment files
+venv/
+*.venv
+.env
+
+# IDE - PyCharm
+.idea/
+
+# IDE - Visual Studio Code
+.vscode/
+
+# Mac OS files
+.DS_Store
+
+# Windows files
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Database files (SQLite)
+*.db
+*.db-journal
