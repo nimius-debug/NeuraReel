@@ -11,8 +11,9 @@ build/
 *.egg
 
 # Streamlit files
-streamlit/.streamlit
 
+#.streamlit
+secrets.toml
 # Vertex AI files
 vertex-ai-key.json
 
