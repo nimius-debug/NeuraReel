@@ -9,7 +9,7 @@ st.set_page_config(page_title="Download Audio", page_icon="🎵", layout="center
 @st.cache_data(show_spinner=False)
 def download_audio_to_buffer(url):
     buffer = BytesIO()
-    youtube_video = YouTube(url)
+    youtube_video = YouTube(url,use_oauth=True, allow_oauth_cache=True)
     audio = youtube_video.streams.get_audio_only()
     default_filename = audio.default_filename
     audio.stream_to_buffer(buffer)
